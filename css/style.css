@@ -66,6 +66,7 @@ div.add_msg { background:#27A9E3; }
 div.drop_msg { background:#852b99; }
 
 img.icon-node{width: 50px; height: 50px; margin: 9px 9px 5px; background: #EEEBE4; border-radius: 50%;}
+img.view-node{ width: 70px; height: 70px; float: left; margin-right: 20px;}
 div.node{border: 1px solid #bbb; z-index: 1; height: 140px; width: 100px; border-radius: 2px;}
 
 div.node:hover{

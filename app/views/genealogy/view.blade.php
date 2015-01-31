@@ -1,5 +1,6 @@
 <p>Анкета</p>
 @if($node)
+<img src="/img/icon_male.png" class="icon-node view-node">
 <p>Аты: {{$node->name}}</p>
 <p>Кошулган: {{$node->created_at}}</p>
 <p><a href="genealogy/edit/{{$node->id}}" data-reveal-id="myModal" data-reveal-ajax="true">Озгортуу</a></p>
