@@ -1,13 +1,13 @@
 @extends('theme.content')
 
 @section('content')
+
 <script>
     $(document).ready(function() {
         $('.tree').tree_structure({
         });
     });
 </script>
-
 
 <div class="row" style="margin-top: 60px;">
     <div class="large-12">
@@ -21,9 +21,9 @@
         </div>
         <div class="right">
             <ul class="inline-list link-btn">
-                <li><a href=""><i class="fa fa-search"></i> </a></li>
-                <li><a href=""><i class="fa fa-cog"></i></a></li>
-                <li><a href=""><i class="fa fa-print"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i> Поиск</a></li>
+                <li><a href=""><i class="fa fa-cog"></i>  Настройки</a></li>
+                <li><a href=""><i class="fa fa-print"></i> Печать</a></li>
             </ul>
         </div>
     </div>
@@ -61,6 +61,5 @@
     </div> 
 </div>
 </div>
-
 
 @stop

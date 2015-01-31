@@ -13,7 +13,9 @@
 
 //Route::get('/', array('as' => 'index', 'uses' => 'HomeController@index'));
 Route::get('/', 'HomeController@index');
+
 Route::get('/genealogy/statistika','GenealogyController@statis');
+
 Route::get('/genealogy/{id?}', 'GenealogyController@index');
 
 Route::group(['where' => ['id' => '[0-9]+']], function() {

@@ -2,7 +2,7 @@
 @if($node)
 <p>Аты: {{$node->name}}</p>
 <p>Кошулган: {{$node->created_at}}</p>
-<p><a href="genealogy/edit/{{$node->id}}" data-reveal-id="myModal" data-reveal-ajax="true"> Озгортуу</a></p>
+<p><a href="genealogy/edit/{{$node->id}}" data-reveal-id="myModal" data-reveal-ajax="true">Озгортуу</a></p>
 <p><a href="/genealogy/add/{{$node->id}}" data-reveal-id="myModal" data-reveal-ajax="true">Уул кошуу</a></p>
 <p><a href="{{Route('addof')}}" data-reveal-id="myModal" data-reveal-ajax="true">Уул кошуу(к/ч)</a></p>
 <p><a href="/genealogy/move/{{$node->id}}" data-reveal-id="myModal" data-reveal-ajax="true">Жылдыруу</a></p>
