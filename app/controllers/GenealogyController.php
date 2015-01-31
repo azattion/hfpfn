@@ -4,7 +4,7 @@ class GenealogyController extends BaseController {
 
     public function index($id=22) {
         
-        $node = Genealogy::find($id)->DescendantsAndSelf()->limitDepth(2)->remember(10)->get();
+        $node = Genealogy::find($id)->DescendantsAndSelf()->limitDepth(1)->remember(10)->get();
         return  View::make('genealogy/index')->with('node', $node);
         
     }
